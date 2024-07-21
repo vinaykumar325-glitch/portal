@@ -87,7 +87,7 @@ function LanguageProvider(props){
       <ErrorBoundary>
         <Router history={history}>
           <Switch>
-            <Route path="/admin" render={ (props) => <Admin lang={lang} setLang={setLang}/>}/>
+            <Route path="/head" render={ (props) => <Admin lang={lang} setLang={setLang}/>}/>
             <Route path="/login" render={ (props) => <Login lang={lang} setLang={setLang}/>}/>
             <Route path="/initial" render={ (props) => <Initial lang={lang} setLang={setLang}/>}/>
             <Route path="/monitor/:id" render={ props => <ControlInstance lang={lang} {...props}/>}/>
