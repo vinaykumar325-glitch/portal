@@ -31,7 +31,7 @@ export function getAllMenus(lang) {
       mediaImage: 'Media Image',
       systemTempaltes: 'System Templates',
       securityPolicies: 'Security Policies',
-      user: 'Users',
+      user: 'useruuuuuu',
       log: 'Logs',
       visibility: 'Resource Visibility',
     },
